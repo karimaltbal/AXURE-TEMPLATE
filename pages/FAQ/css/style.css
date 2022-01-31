@@ -1,0 +1,82 @@
+
+body{
+    padding-top: 50px;
+    color: black;
+}
+
+nav .container-fluid .collapse ul li.active a{
+    background-color: brown;
+}
+
+/**********************************************************************/
+
+.breadcrumb{
+    margin: 10px 0;
+}
+
+.breadcrumb-holder{
+    background-color: rgb(228, 228, 228);
+}
+
+.breadcrumb li a{
+    color: black;
+    font-size: 20px;
+}
+
+.breadcrumb>.active {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/**********************************************************************/
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(51, 51, 51);
+}
+
+footer .container ul li{
+    float: left;
+    width: 33.3333%;
+}
+
+footer .container .page{
+    width: 80%;
+    margin-top: 90px;
+}
+
+footer .container .page li {
+    width: 16.6666%;
+    height: 30px;
+}
+
+footer .container .page li img{
+    height: 100%;
+    width: 90%;
+    border-radius: 50%;
+    
+}
+
+footer .container .media img{
+    width: 65px;
+}
+
+footer .container .content_img img{
+    width: 40%;
+    float: left;
+    margin: 5px;
+}
+
+/**********************************************************************/
+.panel-group .panel-heading a.collapsed:after{
+    content: "\e080";
+}
+
+.panel-group .panel-heading a:after{
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+}
+    
